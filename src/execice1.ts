@@ -1,4 +1,5 @@
 /**
+ * Question 1:
  * Définir un type Consultant
  * Le comportement attendu du compilateur est défini
  * au-dessus de chaque déclaration de variable
@@ -36,6 +37,7 @@ const consultantWithUnknownValue: Consultant = {
 };
 
 /**
+ * Question 2:
  * Enrichir le type Consultant avec le champ optionnel 'currentClient' de type string
  * Indication: Dans le type {optionalField?: number}, optionalField est optionnel
  * PS: Le comportement du compilateur doit rester identiques pour les varianles déclarées
@@ -56,6 +58,7 @@ const enrichedConsultant: Consultant = {
 type ConsultantDictionnary = { [key: string]: Consultant };
 
 /**
+ * Question 3:
  * Definir le type InsertionFnType pour typer la fonction insertIntoConsultantDictionnary
  */
 
@@ -110,6 +113,7 @@ const correctCallToInsertWithEnriched = insertIntoConsultantDictionnary(
 );
 
 /**
+ * Question 4:
  * Definir le type UpdateFnType pour typer la fonction updateConsultantInDictionnary
  * Indication: le type Partial<{name: string, age: number}> est égal au type {name?: string, age?: number}
  */
