@@ -1,4 +1,5 @@
 {
+  "name": "typescript_handson",
   "devDependencies": {
     "prettier": "^1.16.4",
     "tslint": "^5.15.0",
